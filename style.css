@@ -7,7 +7,7 @@
 }
 
 body {
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 header {
@@ -17,7 +17,6 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
 section.hero {
@@ -26,8 +25,8 @@ section.hero {
   justify-content: space-around;
   align-items: center;
   /* gap: 1.2rem; */
-  min-height: calc(100svh - 90px);
-  padding: 24px;
+  min-height: calc(100dvh - 90px);
+  padding: 16px;
 }
 
 .panorama {
